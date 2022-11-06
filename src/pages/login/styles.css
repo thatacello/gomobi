@@ -1,0 +1,72 @@
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 3.4rem;
+  line-height: 90%;
+  color: #3451ff;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.form {
+  height: 3.7rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #3451ff;
+  padding: 0 1rem;
+}
+
+.forgot-password {
+  font-size: 1rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.btn-entrar {
+  color: #fff;
+  background-color: #3451ff;
+  border-radius: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.btn-entrar:hover {
+  color: #fff;
+}
+
+.btn-nova-conta {
+  color: #000;
+  background-color: #fff;
+  border-radius: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  text-decoration: none;
+}

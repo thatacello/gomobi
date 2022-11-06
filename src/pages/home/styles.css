@@ -1,0 +1,68 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.small-logo {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: #3451ff;
+  border-radius: 50%;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+
+.hello {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.nav-icons {
+  width: 1.12rem;
+  margin-right: 0.5rem;
+}
+
+.contamos {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.saldo-container {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.saldo {
+  color: #ccc;
+  font-size: 0.7rem;
+}
+
+.pontos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hr {
+  min-width: 6rem;
+}
+
+.ver {
+  color: #ccc;
+  font-size: 0.7rem;
+}
