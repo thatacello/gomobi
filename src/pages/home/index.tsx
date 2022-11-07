@@ -1,4 +1,3 @@
-import React from 'react';
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './styles.css';
 import HomeIcon from '../../assets/icons/home.svg';
@@ -7,27 +6,65 @@ import PerfilIcon from '../../assets/icons/perfil.svg';
 import Centauro from '../../assets/images/centauro.png';
 import Decathlon from '../../assets/images/decathlon.png';
 import Netshoes from '../../assets/images/netshoes.png';
-import Slider from 'react-slick';
-import "../../../node_modules/slick-carousel/slick/slick.css"; 
-import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+import Desafio1 from '../../assets/images/desafio1.png';
+import Desafio2 from '../../assets/images/desafio2.png';
+import Desafio3 from '../../assets/images/desafio3.png';
+import AliceCarousel from 'react-alice-carousel';
+
 
 function Home() {
-  const settings = {
-    dots: true,
-    arrows: true,
-    infinite: true,
-    speed: 500,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-   
-  };
-// continuar com alice carousel https://github.com/maxmarinich/react-alice-carousel
+  const handleDragStart = (e: any) => e.preventDefault();
 
+  const items = [
+    <img
+      className="brands"
+      src={Decathlon}
+      onDragStart={handleDragStart}
+      role="presentation"
+      alt=""
+    />,
+    <img
+      className="brands"
+      src={Netshoes}
+      onDragStart={handleDragStart}
+      role="presentation"
+      alt=""
+    />,
+    <img
+      className="brands"
+      src={Centauro}
+      onDragStart={handleDragStart}
+      role="presentation"
+      alt=""
+    />,
+  ];
+
+  const items2 = [
+    <img
+      className="chalenges"
+      src={Desafio1}
+      onDragStart={handleDragStart}
+      role="presentation"
+      alt=""
+    />,
+    <img
+      className="chalenges"
+      src={Desafio2}
+      onDragStart={handleDragStart}
+      role="presentation"
+      alt=""
+    />,
+    <img
+      className="chalenges"
+      src={Desafio3}
+      onDragStart={handleDragStart}
+      role="presentation"
+      alt=""
+    />,
+  ];
 
   return (
-    <Container>
+    <Container className='external'>
       <Row>
         <Navbar variant="light">
           <Container className="navbar-container">
@@ -54,12 +91,12 @@ function Home() {
       </Row>
 
       <Row className="d-flex align-items-center">
-        <Col sm={12} md={8}>
+        <Col sm={12} md={6}>
           <h2 className="contamos">
             Contamos com os melhores parceiros para você
           </h2>
         </Col>
-        <Col sm={12} md={4}>
+        <Col sm={12} md={6}>
           <div className="saldo-container">
             <span className="saldo">Saldo atual</span>
             <div className="pontos-container">
@@ -74,20 +111,53 @@ function Home() {
         </Col>
       </Row>
       <Row>
-        <Slider {...settings}>
-          <div>
-            <img src={Decathlon} alt="First slide" />
-          </div>
-          <div>
-            <img src={Netshoes} alt="Second slide" />
-          </div>
-          <div>
-            <img src={Centauro} alt="Third slide" />
-          </div>
-        </Slider>
+        <AliceCarousel
+          mouseTracking
+          items={items}
+          autoPlay={true}
+          infinite={true}
+          animationDuration={3000}
+          autoPlayStrategy="none"
+          disableButtonsControls={true}
+          disableDotsControls={true}
+          responsive={{
+            0: {
+              items: 1,
+            },
+            625: {
+              items: 3,
+            },
+            1024: {
+              items: 4,
+            },
+          }}
+        />
       </Row>
       <Row>
-        <Col>Desafios</Col>
+        <Col>
+          <h3 className="desafios">Desafios</h3>
+          <AliceCarousel
+            mouseTracking
+            items={items2}
+            autoPlay={true}
+            infinite={true}
+            animationDuration={5000}
+            autoPlayStrategy="none"
+            disableButtonsControls={true}
+            disableDotsControls={true}
+            responsive={{
+              0: {
+                items: 1,
+              },
+              625: {
+                items: 2,
+              },
+              1024: {
+                items: 3,
+              },
+            }}
+          />
+        </Col>
       </Row>
     </Container>
   );

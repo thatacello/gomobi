@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import 'react-alice-carousel/lib/alice-carousel.css';
 import App from './App';
-import "../node_modules/slick-carousel/slick/slick.css"; 
-import "../node_modules/slick-carousel/slick/slick-theme.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
