@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/gomobi/static/css/main.dfca188d.css",
+    "main.js": "/gomobi/static/js/main.0abff73b.js",
+    "static/media/map.png": "/gomobi/static/media/map.d1a96dc48caece7c7ba2.png",
+    "static/media/treino.png": "/gomobi/static/media/treino.cb869106af325e542298.png",
+    "static/media/fa-solid-900.ttf": "/gomobi/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/woman.png": "/gomobi/static/media/woman.040a757061fe78cd82d4.png",
+    "static/media/desafio1.png": "/gomobi/static/media/desafio1.e3aeec2cdd182b0f640a.png",
+    "static/media/desafio3.png": "/gomobi/static/media/desafio3.063712b42af415f8ba65.png",
+    "static/media/desafio2.png": "/gomobi/static/media/desafio2.7846e594803ac1a9441b.png",
+    "static/media/estimulo3.png": "/gomobi/static/media/estimulo3.af12a6e325b61d0d69b1.png",
+    "static/media/estimulo2.png": "/gomobi/static/media/estimulo2.eaa788c951688bcb2540.png",
+    "static/media/fa-brands-400.ttf": "/gomobi/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
+    "static/media/estimulo1.png": "/gomobi/static/media/estimulo1.26ba5924fa722a9e6ad3.png",
+    "static/media/fa-solid-900.woff2": "/gomobi/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/fa-brands-400.woff2": "/gomobi/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
+    "static/media/fa-regular-400.ttf": "/gomobi/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
+    "static/media/conquista2.png": "/gomobi/static/media/conquista2.aece1fb96ec4349bdc56.png",
+    "static/media/conquista5.png": "/gomobi/static/media/conquista5.4d42151e8778fa7ba6c0.png",
+    "static/media/fa-regular-400.woff2": "/gomobi/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
+    "static/media/centauro.png": "/gomobi/static/media/centauro.14b02490609a3cf93941.png",
+    "static/media/conquista7.png": "/gomobi/static/media/conquista7.5235170cee703be60a78.png",
+    "static/media/netshoes.png": "/gomobi/static/media/netshoes.4a076f18edcc5be67aa3.png",
+    "static/media/fa-v4compatibility.ttf": "/gomobi/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
+    "static/media/fa-v4compatibility.woff2": "/gomobi/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
+    "index.html": "/gomobi/index.html",
+    "static/media/perfil.svg": "/gomobi/static/media/perfil.5bb6f64bc5b459294f1669d5301eaf36.svg",
+    "static/media/home.svg": "/gomobi/static/media/home.5b82a82d3806343fa2d40e528c1e3746.svg",
+    "static/media/atividade.svg": "/gomobi/static/media/atividade.2a5c72f6738e8a3a69b61f737b12d12e.svg",
+    "main.dfca188d.css.map": "/gomobi/static/css/main.dfca188d.css.map",
+    "main.0abff73b.js.map": "/gomobi/static/js/main.0abff73b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfca188d.css",
+    "static/js/main.0abff73b.js"
+  ]
+}
