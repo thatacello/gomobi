@@ -42,4 +42,19 @@
   margin-right: 0.5rem;
 }
 
+.conquistas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
 
+.conquistas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conquistas-img {
+  width: 200px;
+}
